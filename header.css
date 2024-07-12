@@ -1,4 +1,8 @@
-
+.section1{
+    background-image: linear-gradient(to bottom, white 0%, white 65%,
+     rgb(244, 237, 228) 65%, rgb(244, 237, 228) 100%);
+     margin-bottom: 0px;
+}
 /* Main-header part */ 
 .header{
     display: flex;
@@ -14,6 +18,7 @@
     left: 20px;
     right: 20px;
 }
+
 
 .left-section{
     display: flex;
@@ -79,7 +84,8 @@ button{
     margin-left: 23px;
 }
 
-#header-button1{
+#header-button1,
+.button2-page3{
     background-color: transparent;
     border : 1px solid rgb(97, 31, 105);
     font-weight: bold;
@@ -95,7 +101,8 @@ button{
     }
 }
 
-#header-button2{
+#header-button2,
+.button1-page3{
     background-color: rgb(97, 31, 105);
     font-weight: bold;
     font-size: 15px;
@@ -104,13 +111,15 @@ button{
     border-radius: 4px;
 }
 
-#header-button1:hover{
+#header-button1:hover,
+.button2-page3:hover{
     border : 2px solid;
     transition: 0.2s;
 }
 
 #header-button2:hover,
-.main-button:hover{
+.main-button:hover,
+.button1-page3:hover{
     background-color: rgb(65, 20, 70);
     transition: 0.3s;
 }
