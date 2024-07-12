@@ -1,31 +1,97 @@
 <!DOCTYPE html>
 <head>
     <title>Slack.com</title>
-    <link  rel="stylesheet" href="styles.css"> 
+    <link  rel="stylesheet" href="header.css"> 
+    <link  rel="stylesheet" href="main.css"> 
+    <link  rel="stylesheet" href="page.css">
 </head>
 <body>
-    <div class="header">
-        <div class="left-section">
-            <button id="header-button">
-                <img src="./images/slack-salesforce-logo-nav-black.png">
-            </button>
-            <p class="header-text">Features▼</p>
-            <p class="header-text">Solutions▼</p>
-            <p class="header-text" id="underline-text">Enterprise</p>
-            <p class="header-text">Resources▼</p>
-            <p class="header-text" id="underline-text">Pricing</p>
+    <section class="section1" style="background-color:rgb(247, 247, 247);">
+        <div class="header">  
+            <div class="left-section">
+                <button class="header-button">
+                    <img src="./images/slack-salesforce-logo-nav-black.png">
+                </button>
+                <span class="header-text">Features▼</span>
+                <span class="header-text">Solutions▼</span>
+                <span class="header-text" id="underline-text">Enterprise</span>
+                <span class="header-text">Resources▼</span>
+                <span class="header-text" id="underline-text">Pricing</span>
+            </div>
+            <div class="right-section">
+                <button class="header-button">
+                    <img class ="header-img" src="./images/search-interface-symbol.png">
+                </button>
+                    <div class="right-section-inner">
+                    <span class="header-text" id="underline-text">Sign in</span>
+                    <button id="header-button1">
+                        TALK TO SALES
+                    </button>
+                    <button id="header-button2">
+                        GET STARTED
+                    </button>
+                    <button id="header-button-res" class="header-button">
+                        <img class="header-img" src="./images/hamburger-menu.svg">
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="right-section">
-            <button id="header-button">
-                <img id ="search-img" src="./images/search-interface-symbol.png">
+        <main class="main-page">
+            <h2 class="title">Made for people.
+                <span>Built for productivity.</span>
+            </h2>
+            <button class="main-button">
+                get started
             </button>
-            <p class="header-text" id="underline-text">Sign in</p>
-            <button class="right-section-button">
-                TALK TO SALES
-            </button>
-            <button class="right-section-button">
-                GET STARTED
-            </button>
-        </div>
-    </div>
+            <p class="main-para">Slack is free to try
+                <span>for as long as you'd like</span>
+            </p>
+            <div class="main-icons-container">
+                <button class="main-button-flex">
+                    <img src="./images/logo-airbnb-small.png">
+                </button>
+                <button class="main-button-flex">
+                    <img src="./images/logo-nasa-small.png">
+                </button>
+                <button class="main-button-flex"> 
+                    <img src="./images/logo-uber-small.png">
+                </button>
+                <button class="main-button-flex">
+                    <img src="./images/logo-target-small.png">
+                </button>
+                <button class="main-button-flex">
+                    <img src="./images/logo-nyt-small.png">
+                </button>
+                <button class="main-button-flex">
+                    <img src="./images/logo-etsy-small.png">
+                </button>
+            </div>
+            <video class="main-vd" width="900" autoplay loop>
+                <source src="./videos/hero@2x.webm" type="video/webm">
+            </video>
+            </main>
+        </section>
+        <section class="section-2" style="backgroud-color:rgb(244, 237, 228);">
+            <main class="main-page2">
+                <video class="main-vd-2" width="300" autoplay loop>
+                    <source src="./videos/speed.webm" type="video/webm">
+                </video>
+                <div>
+                    <p>Move faster with your tools in one place</p>
+                    <p>Automate away routine tasks with the power of generative AI and simplify your workflow with all your favorite apps ready to go in Slack.</p>
+                    <p>Learn more about the Slack platform →</p>
+                </div>
+
+                <div>
+                    <p>Choose how you want to work</p>
+                    <p>In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live.</p>
+                    <p>Learn more about flexible communication →</p>
+                </div>
+                <video class="main-vd-3" width="300" autoplay loop>
+                    <source src="./videos/ia4-flexibility.webm">
+                </video>
+                
+            </main>
+   
+        </section>
 </body>
