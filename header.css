@@ -19,6 +19,15 @@
     right: 20px;
 }
 
+@media screen and (max-width: 1085px){
+    .header{
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
+    }
+}
+
 
 .left-section{
     display: flex;
