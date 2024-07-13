@@ -72,7 +72,8 @@ button{
 
 .header-button,
 #search-header-button,
-.main-button-flex{
+.main-button-flex,
+.footer-button{
     background-color: transparent;
     border: 0;
     cursor: pointer;

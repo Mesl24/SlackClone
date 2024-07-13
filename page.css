@@ -6,7 +6,8 @@
     margin: 80px;
 }
 
-.title{
+.title,
+.sec5-title{
     font-size: 45px;
     font-weight: 900;
 }
@@ -110,7 +111,7 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin: 40px 0px 30px;
+    margin: 25px 0px 40px;
 
 }
 
@@ -121,14 +122,14 @@
 }
 
 .sec4-container{
-    display: grid;
-    grid-template-columns: 150px;
-    
+    display: flex;
+    flex-direction: column;
+    width: 180px;
 }
 
 .percentage-inner{
-    margin-top: -55px;
     font-size: 13px;
+    margin: -50px 0px 0px 30px;
 }
 
 .page3-sec5{
@@ -142,9 +143,10 @@
     border-bottom-right-radius: 50%;
 }
 
-.sec5-container{
+.page3-sec5-container{
     display: grid;
     grid-template-columns: 640px;
+    margin-top: -30px;
     
 }
 
@@ -158,16 +160,17 @@
 
 .title-bold{
     font-weight: bold;
+    margin-top: -30px;
 }
 
 .title-inner{
-    margin-top: -10px;
+    margin: -40px 0px -80px 0px;
 }
 
 .info-page3{
     font-size: 14px;
     color: rgb(105, 105, 105);
-    margin: 90px 0px 10px;
+    margin: 90px 0px 20px;
 }
 
 /*Section 4*/
@@ -179,10 +182,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .title-sec4{
-    margin: 30px 0 20px;
+    margin: 30px 0 15px;
 }
 .header-sec4{
     font-size: 30px;
@@ -191,15 +195,85 @@
 
 .sec4-container{
     display: flex;
+    align-items: center;
 }
 
 .sec4-container-main{
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 285px 285px 285px 285px;
+    margin-bottom: 60px;
     column-gap: 30px;
 }
 
 .sec4-container-inner{
-    padding: 12px 20px;;
+    padding: 12px;
     background-color: white;
 }
+
+.info-page4{
+    margin-top: 15px;
+}
+
+.title-sec4-inner{
+    font-size: 23px;
+    font-weight: 900;
+    margin: -10px 0 100px;
+
+
+}
+
+#special-margin{
+    margin-bottom: 74px;
+}
+
+/* Section 5 */
+.section-5{
+    background-image: linear-gradient(to bottom, rgb(74, 21, 75) 0%, rgb(74, 21, 75) 80%,
+    white 80%, white 100%);
+    border: 2px solid black;
+}
+
+.sec5-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5-title{
+    color: white;
+}
+
+.sec5-container-main{
+    margin-top: 50px;
+}
+
+.sec5-btn1{
+
+    background-color: white;
+    color: rgb(74, 21, 75);
+    border: 0;
+    padding: 20px 35px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: -10px 10px 0px;
+}
+
+.sec5-btn2{
+
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 19px 34px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.footer-sec5{
+    display: flex;
+}
+.svg-icon{
+    height: 23px;
+}
+
