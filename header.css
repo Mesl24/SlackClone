@@ -25,6 +25,7 @@
         left: 0px;
         right: 0px;
         border-radius: 0px;
+        height: 56px;
     }
 }
 
@@ -58,7 +59,7 @@
 }
 
 @media screen and (max-width: 1080px){
-    span{
+    div > span{
         display: none;
     }
     #header-button2{

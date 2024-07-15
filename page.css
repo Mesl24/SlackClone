@@ -7,11 +7,24 @@
 }
 
 .title,
-.sec5-title{
+.sec5-title,
+.title-sec2,
+.title-sec3{
     font-size: 45px;
     font-weight: 900;
 }
 
+.main-vd{
+    width: 900px;
+}
+
+@media screen and (max-width: 950px){
+    
+    .main-vd{
+        width: 100%;
+    }
+
+}
 .title span{
     color: rgb(97, 31, 105);
     cursor: auto;
@@ -26,6 +39,23 @@
     border-radius: 4px;
     text-transform: uppercase;
     margin-top: -20px;
+}
+
+@media screen and (max-width: 1020px){
+    .main-button{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-page{
+        margin: 60px 20px;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+    
 }
 
 .main-para{
@@ -86,6 +116,51 @@
     text-decoration: underline;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.main-vd-2,
+.main-vd-3,
+.main-vd-4,
+.page3-vd{
+    width: 650px;
+}
+
+@media screen and (max-width: 1080px){
+    .main-vd-2,
+    .main-vd-3,
+    .main-vd-4,
+    .page3-vd{
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+        width: 100%;
+    }
+    .main-page2{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 60px;
+    }
+    .title-grid-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .title-sec2{
+        font-size: 30px;
+        margin-top: -30px;
+    }
+    .title-body{
+        font-size: 18px;
+        margin-top: -20px;
+        
+    }
+    .main-icons-container{
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 
@@ -172,7 +247,62 @@
     color: rgb(105, 105, 105);
     margin: 90px 0px 20px;
 }
-
+@media screen and (max-width: 1020px){
+    .title-italic{
+        font-size: 20px;
+        line-height: 28px;
+        width: 100%;
+        font-weight: 0;
+        margin: 30px 20px;
+    }
+    .title-bold{
+        margin-top: 0px;
+        margin: 0px 20px;
+    }
+    .title-inner{
+        margin: 5px 20px;
+    }
+    .title-sec3{
+        font-size: 30px;
+        text-align: center;
+    }
+    #title-link-sec3{
+        margin: 10px 20px;
+    }
+    .info-page3{
+        text-align: center;
+        margin-top: 30px;
+    }
+    #title-body-page3{
+        text-align: center;
+    }
+    .page3-sec3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        margin-top: -2px;
+    }
+    .page3-sec4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .sec4-container{
+        margin-top: -10px;
+    }
+    .page3-sec5{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .page3-sec5-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
 /*Section 4*/
 .section-4{
     background-color: rgb(244, 237, 228);
