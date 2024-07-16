@@ -49,3 +49,11 @@ footer{
 .footer-tag-last{
     text-wrap: wrap;
 }
+
+@media screen and (max-width: 1020px){
+    .footer-main-1,
+    .footer-main-2{
+        display: none;
+    }
+
+}
