@@ -49,11 +49,28 @@ footer{
 .footer-tag-last{
     text-wrap: wrap;
 }
+.footer-main-res{
+    display: none;
+}
 
 @media screen and (max-width: 1020px){
     .footer-main-1,
     .footer-main-2{
         display: none;
+    }
+    .footer-main-res{
+        display: flex;
+        flex-direction: column;
+        max-width: 480px;
+        margin-top: 20px;
+    }
+    .footer-res-inner{
+        display: flex;
+        gap: 20px;
+    }
+    .sec6-img{
+        margin-right: 400px;
+        height: 40px;
     }
 
 }
