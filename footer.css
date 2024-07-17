@@ -58,18 +58,25 @@ footer{
     .footer-main-2{
         display: none;
     }
+    footer{
+        display: block;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
     .footer-main-res{
         display: flex;
         flex-direction: column;
         max-width: 480px;
-        margin-top: 20px;
+        margin-top: 30px;
+        cursor: pointer;
     }
     .footer-res-inner{
         display: flex;
         gap: 20px;
     }
     .sec6-img{
-        margin-right: 400px;
+        margin-right: 430px;
         height: 40px;
     }
 
