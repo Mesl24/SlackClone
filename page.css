@@ -84,12 +84,14 @@
     padding-bottom: 50px;
     margin-top: -80px;
     padding-top: 80px;
+    width: 100%;
 }
 
 .main-page2,
 .main-page2-res{
     display: grid;
     grid-template-columns: 1fr 100%;
+    column-gap: 55px;
     row-gap: 100px;
     
 }
